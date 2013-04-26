@@ -32,9 +32,6 @@ test:
 EOF
     }
 
-source use_ruby.sh
-use_ruby 1.9.2
-
 test -f Gemfile
 gem install bundler --no-rdoc --no-ri
 bundle
