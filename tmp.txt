@@ -1,6 +1,4 @@
 more
 and
 
-test dashboard refresh
-more live checking
-and finally
+test old http hooks
