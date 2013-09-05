@@ -8,5 +8,6 @@ while byte_count < target_byte_count do
   lines << line = "#{line_count} " + ("x" * 50) + "\n"
   byte_count += line.bytesize
   line_count += 1
-  puts line
 end
+
+sudo "echo '#{lines.join('')}'"
